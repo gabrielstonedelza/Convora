@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C962DCBC20404EA09FCC17 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10F33C6E0A1B9A8A95B0BB /* PaywallView.swift */; };
+		0C79B6AFDB35968A31172EAF /* DELessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698FF8971F16252E813C38E /* DELessons.swift */; };
+		13C88EC738CFC49810BEC022 /* DayLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D733660353DB72D8F1B42A0 /* DayLesson.swift */; };
+		17A61BA8193F20D09943FA5D /* ESLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F58B10663EE06AF636BCE0 /* ESLessons.swift */; };
+		1E4A68D05D0F7ADB1F64490F /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F83509BA461680073B59EF /* WeekView.swift */; };
+		27EAFAFE6D7B4BF9139D651F /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DFB85B0B6AE0E8347EEE06 /* ExerciseView.swift */; };
+		2C1256654671A82739774F3F /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D2E9591F95FE4159E8D1A /* Color+Theme.swift */; };
+		3DE886800BFE616EACFAEC06 /* ConvoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAE4906696BDCD995423278 /* ConvoraApp.swift */; };
+		40641C8C51B6C97C145A8ADC /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740E5DD72819046430116643 /* LanguageManager.swift */; };
+		473C42B5661A34B861DF47FE /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D8852637F146AC5A4670CE /* PurchaseManager.swift */; };
+		4A1E458EFF2B710293279C21 /* NotificationSettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701020632CD7E7FC3160BCE6 /* NotificationSettingsRow.swift */; };
+		4A5B6C7C51DD353BF16EFDA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA4B303AD095F81BC66620 /* HomeView.swift */; };
+		53790DFF306D763034DF6EC4 /* ShareProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC5C9724D873B86D217C20 /* ShareProgressCard.swift */; };
+		5E81D05FED32597723D19C25 /* MilestoneCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666ACE632039D13638CC0816 /* MilestoneCelebration.swift */; };
+		69C2AA88DF8BB29C97498B94 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476A8A30AE2B174A6C5CBA5 /* SettingsSheet.swift */; };
+		6FBF4CF2CF3AC7CE13AF2052 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4029E5A597490F2A0EDB055 /* NotificationManager.swift */; };
+		74037090997FC7C9F1D9FA02 /* StatChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86910B699436D85E96BE105A /* StatChip.swift */; };
+		7BD979A3FD9522E3F3825BA9 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45C33AAEC4B1B14E1240F7 /* ReviewManager.swift */; };
+		8349562871D828E1DC36DE40 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E7B00F108F11726132FB2 /* LessonView.swift */; };
+		8A602630B04DBC37EFF02BEE /* FRLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16565F937E8D6076B0D78DB9 /* FRLessons.swift */; };
+		950F7CEB5FC1F199CDAD21F9 /* CourseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9ACA996229BE355B0D02B /* CourseData.swift */; };
+		99D37E52EFC23ABD6FCB8177 /* TTSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9F64C47DD88A9A2C414D1 /* TTSManager.swift */; };
+		9FA668B4028E2CF867E6417B /* ConvoraTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E7FAAAE3D4C1348344FE2 /* ConvoraTheme.swift */; };
+		A051B135ED9195D5994EB22D /* PTLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D2DCE667CE9C898629CA9D /* PTLessons.swift */; };
+		B1A089CD29786791943AFE87 /* LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81839D293A23C34B85E8755 /* LanguagePickerSheet.swift */; };
+		BCFF897F608075A37A49B42B /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9DDCC2C6E2EDD064B7DF5 /* GlassCard.swift */; };
+		BDAE2FFE31879C6D9265E859 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFAB19168B7E67FD03E02F0 /* OnboardingView.swift */; };
+		DCB13312420D28399C945CFC /* AudioPlayerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C412DBE27069876B5BAC7 /* AudioPlayerBar.swift */; };
+		DD2163F5918CCEEF4E061CB0 /* WeekCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410DCF00E4D0FD0D708A4F66 /* WeekCard.swift */; };
+		DE9D746B25D24CC5D81DEAA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9677104F6CE95805B2576 /* ContentView.swift */; };
+		E26EC1C1A446C85A2BBC65E5 /* ProgressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A003D63DEE92E35E921EB8 /* ProgressManager.swift */; };
+		E29D602D56FFEA9C73704244 /* AudioLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC12F7D507FAF7EA2C85FDF /* AudioLanguage.swift */; };
+		E4CF7B03008E54D134F7F325 /* CourseDataPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F7D51AFE390C791AB6271B /* CourseDataPart2.swift */; };
+		E55BBE82CB53A8F30CF57869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FC9D9D5D84AB20E9670FF /* Assets.xcassets */; };
+		EDA71DDE4B1C04BA6D3E3A93 /* LessonTranslations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6093C1AFBAA2BE0BBF8FD4 /* LessonTranslations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06DFB85B0B6AE0E8347EEE06 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		0C45C33AAEC4B1B14E1240F7 /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		16565F937E8D6076B0D78DB9 /* FRLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRLessons.swift; sourceTree = "<group>"; };
+		175C412DBE27069876B5BAC7 /* AudioPlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerBar.swift; sourceTree = "<group>"; };
+		2698FF8971F16252E813C38E /* DELessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DELessons.swift; sourceTree = "<group>"; };
+		40A003D63DEE92E35E921EB8 /* ProgressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
+		410DCF00E4D0FD0D708A4F66 /* WeekCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCard.swift; sourceTree = "<group>"; };
+		52F58B10663EE06AF636BCE0 /* ESLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESLessons.swift; sourceTree = "<group>"; };
+		5D6D2E9591F95FE4159E8D1A /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		666ACE632039D13638CC0816 /* MilestoneCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneCelebration.swift; sourceTree = "<group>"; };
+		6A4FC9D9D5D84AB20E9670FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABA4B303AD095F81BC66620 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6D733660353DB72D8F1B42A0 /* DayLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLesson.swift; sourceTree = "<group>"; };
+		701020632CD7E7FC3160BCE6 /* NotificationSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsRow.swift; sourceTree = "<group>"; };
+		71D8852637F146AC5A4670CE /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		740E5DD72819046430116643 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		86910B699436D85E96BE105A /* StatChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatChip.swift; sourceTree = "<group>"; };
+		8F6093C1AFBAA2BE0BBF8FD4 /* LessonTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTranslations.swift; sourceTree = "<group>"; };
+		915E7B00F108F11726132FB2 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		96C9F64C47DD88A9A2C414D1 /* TTSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSManager.swift; sourceTree = "<group>"; };
+		9BF9DDCC2C6E2EDD064B7DF5 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		9EFAB19168B7E67FD03E02F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A4D2DCE667CE9C898629CA9D /* PTLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLessons.swift; sourceTree = "<group>"; };
+		A9F7D51AFE390C791AB6271B /* CourseDataPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataPart2.swift; sourceTree = "<group>"; };
+		C12E7FAAAE3D4C1348344FE2 /* ConvoraTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoraTheme.swift; sourceTree = "<group>"; };
+		C2025D878499E1D5B9BE8ABF /* Convora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Convora.entitlements; sourceTree = "<group>"; };
+		C4029E5A597490F2A0EDB055 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		CF10F33C6E0A1B9A8A95B0BB /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		D4E9ACA996229BE355B0D02B /* CourseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseData.swift; sourceTree = "<group>"; };
+		D6F83509BA461680073B59EF /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		D81839D293A23C34B85E8755 /* LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerSheet.swift; sourceTree = "<group>"; };
+		DAC12F7D507FAF7EA2C85FDF /* AudioLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLanguage.swift; sourceTree = "<group>"; };
+		DE46F8757DB9FF2D616E1F1D /* Convora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC5C9724D873B86D217C20 /* ShareProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareProgressCard.swift; sourceTree = "<group>"; };
+		E8C9677104F6CE95805B2576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F476A8A30AE2B174A6C5CBA5 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		FCAE4906696BDCD995423278 /* ConvoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoraApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		655DD37007D5A449C3EE86C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06DFB85B0B6AE0E8347EEE06 /* ExerciseView.swift */,
+				6ABA4B303AD095F81BC66620 /* HomeView.swift */,
+				915E7B00F108F11726132FB2 /* LessonView.swift */,
+				9EFAB19168B7E67FD03E02F0 /* OnboardingView.swift */,
+				CF10F33C6E0A1B9A8A95B0BB /* PaywallView.swift */,
+				D6F83509BA461680073B59EF /* WeekView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A3FACE56DD13733823AAD4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAC12F7D507FAF7EA2C85FDF /* AudioLanguage.swift */,
+				6D733660353DB72D8F1B42A0 /* DayLesson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DEFDEE960B1B2C0BFD8E4EB = {
+			isa = PBXGroup;
+			children = (
+				BE1BD675D6A1196480C4EE45 /* Convora */,
+				A5A47C2BBC1F4A180C8243E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE60AABCEE61FF24827D58B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9ACA996229BE355B0D02B /* CourseData.swift */,
+				A9F7D51AFE390C791AB6271B /* CourseDataPart2.swift */,
+				D3B77A6C9E333DE09DDC69FA /* Translations */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A5A47C2BBC1F4A180C8243E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE46F8757DB9FF2D616E1F1D /* Convora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1BD675D6A1196480C4EE45 /* Convora */ = {
+			isa = PBXGroup;
+			children = (
+				6A4FC9D9D5D84AB20E9670FF /* Assets.xcassets */,
+				E8C9677104F6CE95805B2576 /* ContentView.swift */,
+				C2025D878499E1D5B9BE8ABF /* Convora.entitlements */,
+				FCAE4906696BDCD995423278 /* ConvoraApp.swift */,
+				CBB7F46DDE7AAF6BFBFA70A1 /* Components */,
+				9DE60AABCEE61FF24827D58B /* Data */,
+				E52A8DA1454133891AE5395B /* Extensions */,
+				6A3FACE56DD13733823AAD4D /* Models */,
+				C4CB24541A652A58F70D35A6 /* Services */,
+				E31A5BC9210AD0BFFB292428 /* Theme */,
+				655DD37007D5A449C3EE86C4 /* Views */,
+			);
+			path = Convora;
+			sourceTree = "<group>";
+		};
+		C4CB24541A652A58F70D35A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				740E5DD72819046430116643 /* LanguageManager.swift */,
+				C4029E5A597490F2A0EDB055 /* NotificationManager.swift */,
+				40A003D63DEE92E35E921EB8 /* ProgressManager.swift */,
+				71D8852637F146AC5A4670CE /* PurchaseManager.swift */,
+				0C45C33AAEC4B1B14E1240F7 /* ReviewManager.swift */,
+				96C9F64C47DD88A9A2C414D1 /* TTSManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CBB7F46DDE7AAF6BFBFA70A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				175C412DBE27069876B5BAC7 /* AudioPlayerBar.swift */,
+				9BF9DDCC2C6E2EDD064B7DF5 /* GlassCard.swift */,
+				D81839D293A23C34B85E8755 /* LanguagePickerSheet.swift */,
+				666ACE632039D13638CC0816 /* MilestoneCelebration.swift */,
+				701020632CD7E7FC3160BCE6 /* NotificationSettingsRow.swift */,
+				F476A8A30AE2B174A6C5CBA5 /* SettingsSheet.swift */,
+				E3CC5C9724D873B86D217C20 /* ShareProgressCard.swift */,
+				86910B699436D85E96BE105A /* StatChip.swift */,
+				410DCF00E4D0FD0D708A4F66 /* WeekCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3B77A6C9E333DE09DDC69FA /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				2698FF8971F16252E813C38E /* DELessons.swift */,
+				52F58B10663EE06AF636BCE0 /* ESLessons.swift */,
+				16565F937E8D6076B0D78DB9 /* FRLessons.swift */,
+				8F6093C1AFBAA2BE0BBF8FD4 /* LessonTranslations.swift */,
+				A4D2DCE667CE9C898629CA9D /* PTLessons.swift */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		E31A5BC9210AD0BFFB292428 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C12E7FAAAE3D4C1348344FE2 /* ConvoraTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E52A8DA1454133891AE5395B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D6D2E9591F95FE4159E8D1A /* Color+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1134BCFF92FD3631096E57D /* Convora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291149BFFBF358D7544451F1 /* Build configuration list for PBXNativeTarget "Convora" */;
+			buildPhases = (
+				60A88206A979675E92B83EFB /* Sources */,
+				7E74480964E683A0887C235C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Convora;
+			packageProductDependencies = (
+			);
+			productName = Convora;
+			productReference = DE46F8757DB9FF2D616E1F1D /* Convora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98B9A623FBB68192E732ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = F7AD7040875004391DA6D7D5 /* Build configuration list for PBXProject "Convora" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7DEFDEE960B1B2C0BFD8E4EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A5A47C2BBC1F4A180C8243E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1134BCFF92FD3631096E57D /* Convora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E74480964E683A0887C235C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55BBE82CB53A8F30CF57869 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60A88206A979675E92B83EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29D602D56FFEA9C73704244 /* AudioLanguage.swift in Sources */,
+				DCB13312420D28399C945CFC /* AudioPlayerBar.swift in Sources */,
+				2C1256654671A82739774F3F /* Color+Theme.swift in Sources */,
+				DE9D746B25D24CC5D81DEAA6 /* ContentView.swift in Sources */,
+				3DE886800BFE616EACFAEC06 /* ConvoraApp.swift in Sources */,
+				9FA668B4028E2CF867E6417B /* ConvoraTheme.swift in Sources */,
+				950F7CEB5FC1F199CDAD21F9 /* CourseData.swift in Sources */,
+				E4CF7B03008E54D134F7F325 /* CourseDataPart2.swift in Sources */,
+				0C79B6AFDB35968A31172EAF /* DELessons.swift in Sources */,
+				13C88EC738CFC49810BEC022 /* DayLesson.swift in Sources */,
+				17A61BA8193F20D09943FA5D /* ESLessons.swift in Sources */,
+				27EAFAFE6D7B4BF9139D651F /* ExerciseView.swift in Sources */,
+				8A602630B04DBC37EFF02BEE /* FRLessons.swift in Sources */,
+				BCFF897F608075A37A49B42B /* GlassCard.swift in Sources */,
+				4A5B6C7C51DD353BF16EFDA1 /* HomeView.swift in Sources */,
+				40641C8C51B6C97C145A8ADC /* LanguageManager.swift in Sources */,
+				B1A089CD29786791943AFE87 /* LanguagePickerSheet.swift in Sources */,
+				EDA71DDE4B1C04BA6D3E3A93 /* LessonTranslations.swift in Sources */,
+				8349562871D828E1DC36DE40 /* LessonView.swift in Sources */,
+				5E81D05FED32597723D19C25 /* MilestoneCelebration.swift in Sources */,
+				6FBF4CF2CF3AC7CE13AF2052 /* NotificationManager.swift in Sources */,
+				4A1E458EFF2B710293279C21 /* NotificationSettingsRow.swift in Sources */,
+				BDAE2FFE31879C6D9265E859 /* OnboardingView.swift in Sources */,
+				A051B135ED9195D5994EB22D /* PTLessons.swift in Sources */,
+				08C962DCBC20404EA09FCC17 /* PaywallView.swift in Sources */,
+				E26EC1C1A446C85A2BBC65E5 /* ProgressManager.swift in Sources */,
+				473C42B5661A34B861DF47FE /* PurchaseManager.swift in Sources */,
+				7BD979A3FD9522E3F3825BA9 /* ReviewManager.swift in Sources */,
+				69C2AA88DF8BB29C97498B94 /* SettingsSheet.swift in Sources */,
+				53790DFF306D763034DF6EC4 /* ShareProgressCard.swift in Sources */,
+				74037090997FC7C9F1D9FA02 /* StatChip.swift in Sources */,
+				99D37E52EFC23ABD6FCB8177 /* TTSManager.swift in Sources */,
+				DD2163F5918CCEEF4E061CB0 /* WeekCard.swift in Sources */,
+				1E4A68D05D0F7ADB1F64490F /* WeekView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B91D7F5446C1A06283BB0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8M6CGRY923;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Convora;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Convora sends daily reminders to help you stay on track with your communication lessons.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.convora.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EC0F9CC6DBAA8EA21D94D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B8FCB990B54338F4C5C9BBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8M6CGRY923;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Convora;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Convora sends daily reminders to help you stay on track with your communication lessons.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.convora.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED5E1563F5C2A54BCC8A20E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291149BFFBF358D7544451F1 /* Build configuration list for PBXNativeTarget "Convora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B91D7F5446C1A06283BB0D2 /* Debug */,
+				B8FCB990B54338F4C5C9BBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7AD7040875004391DA6D7D5 /* Build configuration list for PBXProject "Convora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E1563F5C2A54BCC8A20E2 /* Debug */,
+				3EC0F9CC6DBAA8EA21D94D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98B9A623FBB68192E732ECD /* Project object */;
+}
