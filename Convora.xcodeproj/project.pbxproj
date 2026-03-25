@@ -50,6 +50,7 @@
 		16565F937E8D6076B0D78DB9 /* FRLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRLessons.swift; sourceTree = "<group>"; };
 		175C412DBE27069876B5BAC7 /* AudioPlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerBar.swift; sourceTree = "<group>"; };
 		2698FF8971F16252E813C38E /* DELessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DELessons.swift; sourceTree = "<group>"; };
+		2D0CC022E44DC435A9FCAE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		40A003D63DEE92E35E921EB8 /* ProgressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
 		410DCF00E4D0FD0D708A4F66 /* WeekCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCard.swift; sourceTree = "<group>"; };
 		52F58B10663EE06AF636BCE0 /* ESLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESLessons.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 				E8C9677104F6CE95805B2576 /* ContentView.swift */,
 				C2025D878499E1D5B9BE8ABF /* Convora.entitlements */,
 				FCAE4906696BDCD995423278 /* ConvoraApp.swift */,
+				2D0CC022E44DC435A9FCAE60 /* Info.plist */,
 				CBB7F46DDE7AAF6BFBFA70A1 /* Components */,
 				9DE60AABCEE61FF24827D58B /* Data */,
 				E52A8DA1454133891AE5395B /* Extensions */,
@@ -322,9 +324,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Convora/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Convora;
-				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Convora sends daily reminders to help you stay on track with your communication lessons.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,10 +382,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -404,9 +401,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Convora/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Convora;
-				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Convora sends daily reminders to help you stay on track with your communication lessons.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,10 +465,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
