@@ -64,6 +64,7 @@
 		71D8852637F146AC5A4670CE /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		740E5DD72819046430116643 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		7CBB81882F75013100CEF206 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7CBB818D2F750C4000CEF206 /* ConvoraProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConvoraProducts.storekit; sourceTree = "<group>"; };
 		86910B699436D85E96BE105A /* StatChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatChip.swift; sourceTree = "<group>"; };
 		8F6093C1AFBAA2BE0BBF8FD4 /* LessonTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTranslations.swift; sourceTree = "<group>"; };
 		915E7B00F108F11726132FB2 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		7DEFDEE960B1B2C0BFD8E4EB = {
 			isa = PBXGroup;
 			children = (
+				7CBB818D2F750C4000CEF206 /* ConvoraProducts.storekit */,
 				BE1BD675D6A1196480C4EE45 /* Convora */,
 				7CBB81872F75013100CEF206 /* Frameworks */,
 				A5A47C2BBC1F4A180C8243E2 /* Products */,

@@ -9,9 +9,8 @@ class PurchaseManager {
     var isLoading: Bool = false
 
     private static let productIDs: Set<String> = [
-        "convora_monthly",
-        "convora_annual",
-        "convora_lifetime"
+        "com.convora.app.monthly",
+        "com.convora.app.annual"
     ]
 
     private var transactionListener: Task<Void, Never>?
@@ -32,9 +31,8 @@ class PurchaseManager {
             let storeProducts = try await Product.products(for: Self.productIDs)
 
             let sortOrder: [String: Int] = [
-                "convora_monthly": 0,
-                "convora_annual": 1,
-                "convora_lifetime": 2
+                "com.convora.app.monthly": 0,
+                "com.convora.app.annual": 1
             ]
 
             products = storeProducts.sorted {
@@ -100,10 +98,6 @@ class PurchaseManager {
             if let transaction = try? checkVerified(result) {
                 switch transaction.productType {
                 case .autoRenewable:
-                    if transaction.revocationDate == nil {
-                        hasPremium = true
-                    }
-                case .nonConsumable:
                     if transaction.revocationDate == nil {
                         hasPremium = true
                     }

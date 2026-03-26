@@ -60,26 +60,18 @@ struct PaywallView: View {
                     VStack(spacing: 12) {
                         pricingButton(
                             title: "Annual",
-                            price: formattedPrice(for: "convora_annual") ?? "$39.99/year",
+                            price: formattedPrice(for: "com.convora.app.annual") ?? "$39.99/year",
                             badge: "SAVE 52%",
                             isHighlighted: true,
-                            productId: "convora_annual"
+                            productId: "com.convora.app.annual"
                         )
 
                         pricingButton(
                             title: "Monthly",
-                            price: formattedPrice(for: "convora_monthly") ?? "$6.99/month",
+                            price: formattedPrice(for: "com.convora.app.monthly") ?? "$6.99/month",
                             badge: nil,
                             isHighlighted: false,
-                            productId: "convora_monthly"
-                        )
-
-                        pricingButton(
-                            title: "Lifetime",
-                            price: formattedPrice(for: "convora_lifetime") ?? "$79.99",
-                            badge: "FOREVER",
-                            isHighlighted: false,
-                            productId: "convora_lifetime"
+                            productId: "com.convora.app.monthly"
                         )
                     }
 
@@ -147,19 +139,22 @@ struct PaywallView: View {
     ) -> some View {
         Button {
             Task {
-                if let product = purchases.products.first(where: { $0.id == productId }) {
-                    isPurchasing = true
-                    purchaseError = nil
-                    do {
-                        try await purchases.purchase(product)
-                        if purchases.isPremium {
-                            dismiss()
-                        }
-                    } catch {
-                        purchaseError = "Purchase failed. Please try again."
-                    }
-                    isPurchasing = false
+                guard let product = purchases.products.first(where: { $0.id == productId }) else {
+                    purchaseError = "Products not available. Please check your connection and try again."
+                    await purchases.loadProducts()
+                    return
                 }
+                isPurchasing = true
+                purchaseError = nil
+                do {
+                    try await purchases.purchase(product)
+                    if purchases.isPremium {
+                        dismiss()
+                    }
+                } catch {
+                    purchaseError = "Purchase failed. Please try again."
+                }
+                isPurchasing = false
             }
         } label: {
             HStack {
