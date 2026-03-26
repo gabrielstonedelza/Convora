@@ -7,6 +7,7 @@ struct SettingsSheet: View {
     @Environment(\.dismiss) private var dismiss
 
     @State private var showLanguagePicker = false
+    @State private var showPaywall = false
 
     var body: some View {
         NavigationStack {
@@ -57,31 +58,40 @@ struct SettingsSheet: View {
                 .tracking(1.5)
                 .foregroundStyle(ConvoraTheme.textMuted)
 
-            HStack {
-                Image(systemName: purchases.isPremium ? "star.fill" : "star")
-                    .foregroundStyle(ConvoraTheme.accent)
-                    .font(.system(size: 20))
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(purchases.isPremium ? "Premium" : "Free Plan")
-                        .font(.system(size: 16, weight: .semibold))
-                        .foregroundStyle(ConvoraTheme.textPrimary)
-
-                    Text(purchases.isPremium ? "Full access unlocked" : "Week 1 (7 days) unlocked")
-                        .font(.system(size: 13))
-                        .foregroundStyle(ConvoraTheme.textSecondary)
-                }
-
-                Spacer()
-
+            Button {
                 if !purchases.isPremium {
-                    Text("Upgrade")
-                        .font(.system(size: 14, weight: .semibold))
-                        .foregroundStyle(ConvoraTheme.accent)
+                    showPaywall = true
                 }
+            } label: {
+                HStack {
+                    Image(systemName: purchases.isPremium ? "star.fill" : "star")
+                        .foregroundStyle(ConvoraTheme.accent)
+                        .font(.system(size: 20))
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(purchases.isPremium ? "Premium" : "Free Plan")
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundStyle(ConvoraTheme.textPrimary)
+
+                        Text(purchases.isPremium ? "Full access unlocked" : "Week 1 (7 days) unlocked")
+                            .font(.system(size: 13))
+                            .foregroundStyle(ConvoraTheme.textSecondary)
+                    }
+
+                    Spacer()
+
+                    if !purchases.isPremium {
+                        Text("Upgrade")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundStyle(ConvoraTheme.accent)
+                    }
+                }
+                .padding(16)
+                .glassCard(cornerRadius: ConvoraTheme.radiusMd)
             }
-            .padding(16)
-            .glassCard(cornerRadius: ConvoraTheme.radiusMd)
+            .sheet(isPresented: $showPaywall) {
+                PaywallView()
+            }
         }
     }
 
