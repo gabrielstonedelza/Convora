@@ -25,7 +25,6 @@
 		6FBF4CF2CF3AC7CE13AF2052 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4029E5A597490F2A0EDB055 /* NotificationManager.swift */; };
 		74037090997FC7C9F1D9FA02 /* StatChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86910B699436D85E96BE105A /* StatChip.swift */; };
 		7BD979A3FD9522E3F3825BA9 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45C33AAEC4B1B14E1240F7 /* ReviewManager.swift */; };
-		7CBB81892F75013100CEF206 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBB81882F75013100CEF206 /* StoreKit.framework */; };
 		8349562871D828E1DC36DE40 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E7B00F108F11726132FB2 /* LessonView.swift */; };
 		8A602630B04DBC37EFF02BEE /* FRLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16565F937E8D6076B0D78DB9 /* FRLessons.swift */; };
 		950F7CEB5FC1F199CDAD21F9 /* CourseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9ACA996229BE355B0D02B /* CourseData.swift */; };
@@ -63,8 +62,6 @@
 		701020632CD7E7FC3160BCE6 /* NotificationSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsRow.swift; sourceTree = "<group>"; };
 		71D8852637F146AC5A4670CE /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		740E5DD72819046430116643 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
-		7CBB81882F75013100CEF206 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		7CBB818D2F750C4000CEF206 /* ConvoraProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConvoraProducts.storekit; sourceTree = "<group>"; };
 		86910B699436D85E96BE105A /* StatChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatChip.swift; sourceTree = "<group>"; };
 		8F6093C1AFBAA2BE0BBF8FD4 /* LessonTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTranslations.swift; sourceTree = "<group>"; };
 		915E7B00F108F11726132FB2 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
@@ -81,23 +78,12 @@
 		D6F83509BA461680073B59EF /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		D81839D293A23C34B85E8755 /* LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerSheet.swift; sourceTree = "<group>"; };
 		DAC12F7D507FAF7EA2C85FDF /* AudioLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLanguage.swift; sourceTree = "<group>"; };
-		DE46F8757DB9FF2D616E1F1D /* Convora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE46F8757DB9FF2D616E1F1D /* Convora.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Convora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CC5C9724D873B86D217C20 /* ShareProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareProgressCard.swift; sourceTree = "<group>"; };
 		E8C9677104F6CE95805B2576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F476A8A30AE2B174A6C5CBA5 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
 		FCAE4906696BDCD995423278 /* ConvoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoraApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7CBB818A2F75013100CEF206 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CBB81892F75013100CEF206 /* StoreKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		655DD37007D5A449C3EE86C4 /* Views */ = {
@@ -122,20 +108,10 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		7CBB81872F75013100CEF206 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7CBB81882F75013100CEF206 /* StoreKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DEFDEE960B1B2C0BFD8E4EB = {
 			isa = PBXGroup;
 			children = (
-				7CBB818D2F750C4000CEF206 /* ConvoraProducts.storekit */,
 				BE1BD675D6A1196480C4EE45 /* Convora */,
-				7CBB81872F75013100CEF206 /* Frameworks */,
 				A5A47C2BBC1F4A180C8243E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -243,7 +219,6 @@
 			buildPhases = (
 				60A88206A979675E92B83EFB /* Sources */,
 				7E74480964E683A0887C235C /* Resources */,
-				7CBB818A2F75013100CEF206 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +239,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = F7AD7040875004391DA6D7D5 /* Build configuration list for PBXProject "Convora" */;
 			developmentRegion = en;
@@ -347,7 +324,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8M6CGRY923;
 				INFOPLIST_FILE = Convora/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Convora;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,7 +401,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Convora/Convora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8M6CGRY923;
 				INFOPLIST_FILE = Convora/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Convora;
 				LD_RUNPATH_SEARCH_PATHS = (
